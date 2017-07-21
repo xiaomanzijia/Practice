@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lc.proctice.androidstudioproctice" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name="com.ProticeApplication"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LifeCircleActivity"></activity>
+        <activity android:name=".TargetActivity" android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name=".DrawBasicPicShapeActitivty"></activity>
+        <activity android:name=".TouchActivity"></activity>
+        <activity android:name=".ListActivity"></activity>
+        <activity android:name=".ViewFlipperActivity"></activity>
+        <activity android:name=".ViewFlippperActivity"></activity>
+        <activity android:name=".ScrollViewBasicAvtivity"></activity>
+        <activity android:name=".MeituanScrollViewActivity"></activity>
+        <activity android:name=".gridview.GridViewDemo"></activity>
+        <activity android:name=".zdyviewgroup.ZDYViewGroupActivity"></activity>
+        <activity android:name=".mizhuan.MiZhuanActivity"></activity>
+        <activity android:name=".asynctask.AsyncTaskActivity"></activity>
+        <activity android:name=".myview.MyTextViewActivity"></activity>
+        <activity android:name=".contact.GetContactsActivity"></activity>
+        <activity android:name=".MyServiceActivity"></activity>
+        <activity android:name=".myservice.ServiceActivity"></activity>
+        <activity android:name=".myservice.DownLoadPicActivity"></activity>
+        <activity android:name=".myservice.ForegroundActivity"></activity>
+        <activity android:name=".myviewpager.GuideActivity"></activity>
+        <activity android:name=".myviewpager.WelcomeActivity"></activity>
+        <activity android:name=".weixin.WeChatMainActivity"></activity>
+        <activity android:name=".photo.PhotoActivity"></activity>
+        <activity android:name=".photo.ImageShowActivity"></activity>
+        <activity android:name=".screen.MergeOptimizeActivity"></activity>
+        <activity android:name=".MyStrickActivity"></activity>
+        <activity android:name=".myview.liziyu.LiZiYuActicity"></activity>
+        <activity android:name=".myview.gesturelock.GestureLockActivity"></activity>
+        <activity android:name=".myview.gesturelock.SettingGestureLockActivity"></activity>
+        <activity android:name=".myview.gesturelock.ValidGestureActivity"></activity>
+        <activity android:name=".indexablelistview.IndexableListViewActivity"></activity>
+        <activity android:name=".indexablelistview.MyIndexableListViewActivity"></activity>
+        <activity android:name=".wechatslideview.WeChatSlideViewActivity"></activity>
+        <activity android:name=".recyleview.RecyleViewActivity"></activity>
+        <activity android:name=".httpclient.HttpURLConnectionActivity"></activity>
+        <activity android:name=".asynctask.TestDriverActivity"></activity>
+        <activity android:name=".myview.MyTextViewActivity"
+            tools:ignore="DuplicateActivity"></activity>
+        <activity android:name=".myview.BlankActivity"></activity>
+        <activity android:name=".CategoryActivity"></activity>
+        <activity android:name=".CitySelectedActivity"></activity>
+        <activity android:name=".shopcar.ShopCarActivty"></activity>
+        <activity android:name=".RoundImageViewActivity"></activity>
+        <activity android:name=".mvp.BeautyActivity"></activity>
+        <activity android:name=".rxandroid.Example1Activity"></activity>
+        <activity android:name=".rxandroid.Example2Activity"></activity>
+        <activity android:name=".rxandroid.Example3Activity"></activity>
+        <activity android:name=".rxandroid.Example4Activity"></activity>
+        <activity android:name=".anim.ViewPagerTabScrollviewWithFabActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            ></activity>
+        <activity android:name=".anim.ActionBarControllScrollviewActivity"
+            ></activity>
+
+        <activity android:name=".anim.FlexibleSpaceActionBarScrollviewActiivty"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".anim.FlexibleSpaceWithImageScrollViewActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".WithAcitonONEActivity">
+            <intent-filter>
+                <action android:name="com.lc.proctice.androidstudioproctice.WithAcitonONEActivity.ACTIONONE"></action>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".WithAcitonTWOActivity">
+            <intent-filter>
+                <action android:name="com.lc.proctice.androidstudioproctice.WithAcitonONEActivity.ACTIONTWO"></action>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".myprovider.ContentProviderActivity"></activity>
+
+        <activity android:name=".greendao.NoteActivity"></activity>
+        <activity android:name=".greendao.BookActivity"></activity>
+        <activity android:name=".greendao.StudentActivity"></activity>
+        <activity android:name=".fresco.FrescoActivity"></activity>
+        <activity android:name=".dialog.MyDialogActivity"></activity>
+        <activity android:name=".myservice.MessengerActivity"></activity>
+        <activity android:name=".anim.propertyanim.PropertyAnimActivity"></activity>
+        <activity android:name=".myview.PieViewActivity"></activity>
+        <activity android:name=".myview.HorizontalScrollviewActivity"></activity>
+        <activity android:name=".myview.FlowLayoutActivity"></activity>
+        <activity android:name=".mysurfaceview.SurfaceActivity"></activity>
+
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="Nj2gxOmj5Q0OxVcF9y7Y1KfI"/>       //key:开发者申请的key
+
+        <!--<service-->
+            <!--android:name="com.baidu.location.f"-->
+            <!--android:enabled="true"-->
+            <!--android:process=":remote" >-->
+        <!--</service>-->
+
+        <service android:name=".MyService">
+            <intent-filter>
+                <action android:name="com.licheng.Protice.MyService"></action>
+            </intent-filter>
+        </service>
+
+        <service android:name=".myservice.BindService">
+            <intent-filter>
+                <action android:name="com.licheng.countnumberService"></action>
+            </intent-filter>
+        </service>
+
+        <service android:name=".myservice.IntentSer">
+        </service>
+
+        <service android:name=".myservice.ForegroundSer">
+        </service>
+
+        <service android:name=".myservice.MessengerService"></service>
+
+        <provider
+            android:authorities="com.content.myprovider"
+            android:name=".myprovider.MyContentProvider" android:exported="true"></provider>
+
+
+    </application>
+
+
+    <!-- 这个权限用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <!-- 这个权限用于访问GPS定位-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <!-- 用于读取手机当前的状态-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <!-- 访问网络，网络定位需要上网-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- SD卡读取权限，用户写入离线定位数据-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+
+    <uses-permission android:name="ANDROID.PERMISSION.WRITE_SETTINGS"></uses-permission>
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <!--读取手机通讯录-->
+    <uses-permission android:name="ANDROID.PERMISSION.READ_CONTACTS"></uses-permission>
+
+
+
+    <!--微信接口-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:resizeable="true"
+        android:anyDensity="true" />
+
+</manifest>

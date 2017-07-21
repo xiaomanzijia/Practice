@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#EEEEEE"
+            android:padding="15dp" >
+
+            <TextView
+                android:id="@+id/tv_dismiss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关闭"
+                android:textColor="#e55f6e"
+                android:textSize="@dimen/big_text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="请选择城市"
+                android:textColor="@color/black"
+                android:textSize="@dimen/big_text" />
+
+            <TextView
+                android:id="@+id/tv_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="确定"
+                android:textColor="#e55f6e"
+                android:textSize="@dimen/big_text" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <com.lc.proctice.androidstudioproctice.wheelview.widget.WheelView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/wv_country"
+                android:layout_gravity="center"
+                android:layout_height="150dp" />
+
+            <com.lc.proctice.androidstudioproctice.wheelview.widget.WheelView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/wv_city"
+                android:layout_gravity="center"
+                android:layout_height="150dp" />
+
+            <com.lc.proctice.androidstudioproctice.wheelview.widget.WheelView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/wv_area"
+                android:layout_gravity="center"
+                android:layout_height="150dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

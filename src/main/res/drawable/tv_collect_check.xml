@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 收藏选择按钮 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/ic_check_yes" android:state_selected="true"/>
+    <item android:drawable="@drawable/ic_check_yes" android:state_checked="true"/>
+    <item android:drawable="@drawable/ic_check_no"/>
+
+</selector>

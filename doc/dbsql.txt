@@ -1,0 +1,8 @@
+if(newVersion == 5){
+                db.execSQL("ALTER TABLE Student ADD COLUMN teacher TEXT");
+            }else if(newVersion == 6){
+                db.execSQL("CREATE TABLE " + "'STUDENTSCOND' " + "AS SELECT _id,TEXT,NAME,PHONE,ADDRESS,TEACHER FROM Student");
+                db.execSQL("ALTER TABLE STUDENTSCOND ADD COLUMN studentnum TEXT");
+                db.execSQL("DROP TABLE IF EXISTS Student");
+                db.execSQL("ALTER TABLE STUDENTSCOND RENAME TO Student");
+            }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.lc.proctice.androidstudioproctice.myview.PieView
+        android:layout_width="match_parent"
+        android:id="@+id/pieView"
+        android:layout_height="match_parent" />
+
+    <!--<com.lc.proctice.androidstudioproctice.myview.viewmeasure.RectFView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:id="@+id/rectFView"-->
+        <!--android:layout_height="match_parent" />-->
+
+</LinearLayout>

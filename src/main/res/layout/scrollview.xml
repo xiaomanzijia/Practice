@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:paddingBottom="10dp"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:paddingTop="10dp">
+
+    <com.lc.proctice.androidstudioproctice.ObservableScrollView
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="试试1" />
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="试试2" />
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="试试3" />
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="试试4" />
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="试试5" />
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="试试6" />
+        </LinearLayout>
+    </com.lc.proctice.androidstudioproctice.ObservableScrollView>
+
+    <com.lc.proctice.androidstudioproctice.ObservableScrollView
+            android:id="@+id/view2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="试试1" />
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="试试2" />
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="试试3" />
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="试试4" />
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="试试5" />
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="试试6" />
+        </LinearLayout>
+    </com.lc.proctice.androidstudioproctice.ObservableScrollView>
+
+</LinearLayout>  

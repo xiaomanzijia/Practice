@@ -1,0 +1,53 @@
+﻿{"result":[
+	{
+	"city":[
+		{"CityId":"52","CityName":"北京"},
+		{"CityId":"321","CityName":"上海"},
+		{"CityId":"76","CityName":"广州"},
+		{"CityId":"77","CityName":"深圳"},
+		{"CityId":"343","CityName":"天津"},
+		{"CityId":"394","CityName":"重庆"},
+		{"CityId":"383","CityName":"杭州"},
+		{"CityId":"391","CityName":"温州"},
+		{"CityId":"388","CityName":"宁波"},
+		{"CityId":"220","CityName":"南京"},
+		{"CityId":"221","CityName":"苏州"},
+		{"CityId":"283","CityName":"济南"},
+		{"CityId":"284","CityName":"青岛"},
+		{"CityId":"245","CityName":"大连"},	
+		{"CityId":"222","CityName":"无锡"},
+		{"CityId":"3401","CityName":"合肥"},
+		{"CityId":"138","CityName":"石家庄"},
+		{"CityId":"322","CityName":"成都"},
+		{"CityId":"311","CityName":"西安"},
+		{"CityId":"367","CityName":"昆明"},
+		{"CityId":"60","CityName":"厦门"},	
+		{"CityId":"244","CityName":"沈阳"},
+		{"CityId":"211","CityName":"长春"},
+		{"CityId":"167","CityName":"哈尔滨"}],
+            
+	"province":[
+		{"CityId":"3","CityName":"安徽"},
+		{"CityId":"16","CityName":"江苏"},
+		{"CityId":"31","CityName":"浙江"},
+		{"CityId":"4","CityName":"福建"},
+		{"CityId":"14","CityName":"湖南"},
+		{"CityId":"13","CityName":"湖北"},
+		{"CityId":"11","CityName":"河南"},
+		{"CityId":"10","CityName":"河北"},
+		{"CityId":"22","CityName":"山东"},
+		{"CityId":"23","CityName":"山西"},
+		{"CityId":"6","CityName":"广东"},
+		{"CityId":"7","CityName":"广西"},
+		{"CityId":"18","CityName":"辽宁"},
+		{"CityId":"15","CityName":"吉林"},
+		{"CityId":"12","CityName":"黑龙江"},
+		{"CityId":"30","CityName":"云南"},
+		{"CityId":"5","CityName":"甘肃"},
+		{"CityId":"20","CityName":"宁夏"},
+		{"CityId":"28","CityName":"西藏"},
+		{"CityId":"29","CityName":"新疆"},
+		{"CityId":"19","CityName":"内蒙古"}]
+
+	}]
+}

@@ -1,0 +1,190 @@
+{
+  "shopcar": [
+    {
+      "shopname": "上海-上海-徐汇区分店",
+      "shopid": "10146",
+      "lotteryinfo": [],
+      "druginfo": [
+        {
+          "drugimg": "http:\/\/images02.818.com\/11\/63\/11059163\/150x150\/a1.jpg",
+          "price": "83.60",
+          "status": "2",
+          "did": "10380210",
+          "num": "1",
+          "drugname": "【博士伦】 里程易适隐形眼镜 年抛1片",
+          "cartid": "1331325",
+          "maxbuynum": "436"
+        },
+        {
+          "drugimg": "http:\/\/images02.818.com\/11\/09\/11021109\/150x150\/a1.jpg",
+          "price": "49.40",
+          "status": "2",
+          "did": "10238143",
+          "num": "1",
+          "drugname": "【博士伦*润明】500毫升+120毫升 隐形眼镜护理液",
+          "cartid": "1331322",
+          "maxbuynum": "27"
+        },
+        {
+          "drugimg": "http:\/\/images02.818.com\/11\/02\/11054502\/150x150\/a1.jpg",
+          "price": "37.05",
+          "status": "2",
+          "did": "10371948",
+          "num": "1",
+          "drugname": "【卫康 新视免】 隐形眼镜护理液 （500毫升）",
+          "cartid": "1331321",
+          "maxbuynum": "477"
+        },
+        {
+          "drugimg": "http:\/\/images02.818.com\/11\/27\/11059127\/150x150\/a1.jpg",
+          "price": "27.55",
+          "status": "2",
+          "did": "10380142",
+          "num": "1",
+          "drugname": "【卫康】 淡水蓝色年抛1片 淡水蓝色x-blue 美瞳 彩色隐形眼镜",
+          "cartid": "1331320",
+          "maxbuynum": "345"
+        },
+        {
+          "drugimg": "http:\/\/images02.818.com\/11\/67\/11059167\/150x150\/a1.jpg",
+          "price": "58.90",
+          "status": "2",
+          "did": "10380214",
+          "num": "1",
+          "drugname": "【团购优惠】博士伦清朗隐形眼镜半年抛2片装  买就送护理液 伴侣盒",
+          "cartid": "1331319",
+          "maxbuynum": "99741"
+        }
+      ]
+    },
+    {
+      "shopname": "北京-朝阳01分店",
+      "shopid": "37",
+      "lotteryinfo": [],
+      "druginfo": [
+        {
+          "drugimg": "http:\/\/images01.818.com\/0\/26\/80626\/150x150\/a1.jpg",
+          "price": "9.90",
+          "status": "2",
+          "did": "10245572",
+          "num": "1",
+          "drugname": "【史克肠虫清】 阿苯达唑片 （10片）",
+          "cartid": "1331317",
+          "maxbuynum": "981"
+        }
+      ]
+    },
+    {
+      "shopname": "浙江-宁波-海曙分店",
+      "shopid": "11532",
+      "lotteryinfo": [],
+      "druginfo": [
+        {
+          "drugimg": "http:\/\/images02.818.com\/11\/74\/11212074\/150x150\/a1.jpg",
+          "price": "137.00",
+          "status": "2",
+          "did": "11556147",
+          "num": "1",
+          "drugname": "【跨境购】日本原装进口花王纸尿裤尿不湿 拉拉裤s82片",
+          "cartid": "1331314",
+          "maxbuynum": "100"
+        }
+      ]
+    },
+    {
+      "shopname": "上海-上海-闸北区05分店",
+      "shopid": "11977",
+      "lotteryinfo": [],
+      "druginfo": [
+        {
+          "drugimg": "http:\/\/images02.818.com\/11\/61\/11119461\/150x150\/1.jpg",
+          "price": "235.60",
+          "status": "2",
+          "did": "11827888",
+          "num": "2",
+          "drugname": "【汇仁】 肾宝片 （126片塑料瓶\r\n）",
+          "cartid": "1331312",
+          "maxbuynum": "478"
+        }
+      ]
+    },
+    {
+      "shopname": "吉林-长春-宽城01分店",
+      "shopid": "10215",
+      "lotteryinfo": [],
+      "druginfo": [
+        {
+          "drugimg": "http:\/\/images04.818.com\/18\/29\/78229\/150x150\/a1.jpg",
+          "price": "46.99",
+          "status": "2",
+          "did": "10699721",
+          "num": "1",
+          "drugname": "【钙尔奇】 碳酸钙d3片 (60片装 成人装)",
+          "cartid": "1331311",
+          "maxbuynum": "501"
+        },
+        {
+          "drugimg": "http:\/\/images05.818.com\/19\/27\/79927\/150x150\/a1.jpg",
+          "price": "22.40",
+          "status": "2",
+          "did": "10425474",
+          "num": "1",
+          "drugname": "【钙尔奇】 碳酸钙d3片 （30片装 成人装）",
+          "cartid": "1331309",
+          "maxbuynum": "4590"
+        }
+      ]
+    },
+    {
+      "shopname": "贵州-黔东南-凯里02分店",
+      "shopid": "10507",
+      "lotteryinfo": [],
+      "druginfo": [
+        {
+          "drugimg": "http:\/\/images02.818.com\/11\/99\/11199399\/150x150\/a1.jpg",
+          "price": "6.00",
+          "status": "2",
+          "did": "11458931",
+          "num": "1",
+          "drugname": "【情趣用品】雅润抗菌喷剂女用（20ml）自慰器具成人情趣用品专用消毒杀菌清洗液",
+          "cartid": "1328826",
+          "maxbuynum": "293"
+        }
+      ]
+    },
+    {
+      "shopname": "浙江-宁波-慈溪分店",
+      "shopid": "10614",
+      "lotteryinfo": [],
+      "druginfo": [
+        {
+          "drugimg": "http:\/\/images04.818.com\/18\/66\/78666\/150x150\/a2.jpg",
+          "price": "26.30",
+          "status": "2",
+          "did": "10777785",
+          "num": "6",
+          "drugname": "【信谊 泰尔丝】 异维a酸软胶囊 （20粒装）",
+          "cartid": "1326911",
+          "maxbuynum": "600"
+        }
+      ]
+    },
+    {
+      "shopname": "上海-上海-松江区01分店",
+      "shopid": "10320",
+      "lotteryinfo": [],
+      "druginfo": [
+        {
+          "drugimg": "http:\/\/images02.818.com\/11\/11\/11110611\/150x150\/a1.jpg",
+          "price": "99.99",
+          "status": "2",
+          "did": "10609511",
+          "num": "4",
+          "drugname": "【可复美】类人胶原蛋白敷料【4送1盒 】可复美面膜（5片）比创福康性价比高",
+          "cartid": "1324929",
+          "maxbuynum": "120"
+        }
+      ]
+    }
+  ]
+}

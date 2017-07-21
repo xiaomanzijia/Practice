@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <declare-styleable name="MyTopBar">
+        <attr name="titleCenter" format="string"></attr>
+        <attr name="titleCenterTextSize" format="dimension"></attr>
+        <attr name="titleCenterTextColor" format="color"></attr>
+        <attr name="leftTextColor" format="color"></attr>
+        <attr name="leftText" format="string"></attr>
+        <attr name="leftBackground" format="reference|color"></attr>
+        <attr name="rightColor" format="color"></attr>
+        <attr name="rightBackground" format="reference|color"></attr>
+        <attr name="rightText" format="string"></attr>
+    </declare-styleable>
+
+</resources>

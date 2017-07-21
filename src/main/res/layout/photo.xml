@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/transparent"
+        >
+
+    <LinearLayout android:orientation="vertical"
+                  android:id="@+id/tab3_photo_dialog"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@color/white"
+                  android:paddingBottom="@dimen/space_10"
+                  android:layout_alignParentBottom="true"
+                  android:paddingLeft="@dimen/space_14"
+                  android:paddingRight="@dimen/space_14">
+
+        <TextView android:id="@+id/tab3_take_pictures" android:layout_width="fill_parent" android:layout_height="@dimen/space_50" android:text="拍照"
+                  android:layout_marginTop="@dimen/space_10"  android:textColor="@color/black" android:textSize="@dimen/textsize_22"
+                  android:gravity="center"/>
+
+        <View android:layout_width="fill_parent" android:layout_height="1dip" android:background="@color/white_bg"></View>
+
+        <TextView android:id="@+id/tab3_photo_album" android:layout_width="fill_parent" android:layout_height="@dimen/space_50" android:text="从相册选择"
+                  android:textColor="@color/black" android:textSize="@dimen/textsize_22"
+                  android:gravity="center"/>
+
+        <View android:layout_width="fill_parent" android:layout_height="1dip" android:background="@color/white_bg"></View>
+
+        <TextView android:id="@+id/tab3_photo_cancel" android:layout_width="fill_parent" android:layout_height="@dimen/space_30" android:text="取消"
+                  android:layout_marginTop="@dimen/space_10" android:textColor="@drawable/text_blue_red_selector" android:textSize="@dimen/textsize_22"
+                  android:layout_centerVertical="true" android:gravity="center" />
+
+    </LinearLayout>
+
+</RelativeLayout>

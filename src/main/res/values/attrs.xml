@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumText">
+        <attr name="lineNum" format="integer"></attr>
+        <attr name="mxScroll" format="boolean"></attr>
+    </declare-styleable>
+    
+    <declare-styleable name="OkCancelBar">
+        <attr name="okLabel" format="string"></attr>
+        <attr name="cancelLabel" format="string"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="LiZiYu">
+        <attr name="itemNum" format="integer"></attr>
+        <attr name="itemWidth" format="integer"></attr>
+        <attr name="pointNum" format="integer"></attr>
+        <attr name="drawType" format="integer"></attr>
+    </declare-styleable>
+    
+    
+    <declare-styleable name="TextImageView">
+        <attr name="text" format="string"></attr>
+        <attr name="textColor" format="color"></attr>
+        <attr name="textSize" format="dimension"></attr>
+        <attr name="panEnabled" format="boolean"></attr>
+        <attr name="clampTextMode" format="enum">
+            <enum name="unlimited" value="0"></enum>
+            <enum name="originInside" value="0"></enum>
+            <enum name="textInside" value="0"></enum>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="round_image_view">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_incolor" format="color" />
+        <attr name="border_outcolor" format="color"></attr>
+    </declare-styleable>
+</resources>

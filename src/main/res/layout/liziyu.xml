@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:nt="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+    <com.lc.proctice.androidstudioproctice.myview.liziyu.MusicView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        nt:pointNum="50"
+        nt:drawType="2"
+        nt:itemNum="25"
+        nt:itemWidth="15"/>
+</FrameLayout>

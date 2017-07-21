@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"  >
+
+    <ImageView
+            android:id="@+id/imageView1"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="45dip"
+             />
+
+
+    <com.lc.proctice.androidstudioproctice.MeituanScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+            <ImageView
+                    android:id="@+id/iamge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/pic"
+                    android:scaleType="centerCrop" />
+
+            <include
+                    android:id="@+id/buy"
+                    layout="@layout/buy_layout" />
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/one"
+                    android:scaleType="centerCrop" />
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/one"
+                    android:scaleType="centerCrop" />
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/one"
+                    android:scaleType="centerCrop" />
+        </LinearLayout>
+    </com.lc.proctice.androidstudioproctice.MeituanScrollView>
+
+</LinearLayout>  
